@@ -1,0 +1,29 @@
+<h2 class="text-center mb-4 mt-2">I nostri marchi:</h2>
+<div class="row row-cols-1 row-cols-md-3 ">
+  <div class="col mt-3" *ngFor="let auto of Autoarrlogo.sort()">
+    <div class="card">
+      <img [src]="[auto]" class="card-img img-fluid text-center" alt="" />
+    </div>
+  </div>
+</div>
+
+
+<h2 class="text-center mb-4 mt-2">Alcune delle nostre auto</h2>
+<div class="row row-cols-1 row-cols-sm-2">
+  <div class="col mt-3" *ngFor="let auto of AutoarrRandom">
+    <div class="card h-100" [ngClass]="{
+        'bg-success': auto.available,
+        'bg-danger': !auto.available
+      }">
+      <img [src]="[auto.modelImage]" class="card-img w-100 h-50" alt="" />
+      <div class="card-body">
+        <h5 class="card-title">{{ auto.model }}</h5>
+        <p class="card-text">{{ auto.year }}</p>
+        <p class="card-text">{{ auto.price }}€</p>
+        <p>Pronta consegna: {{ auto.available ? "Sì" : "No" }}</p>
+        <a class="btn btn-dark" [routerLink]="['/' + auto.brand.toLowerCase()]">Vai al costruttotre: {{
+          auto.brand }}</a>
+      </div>
+    </div>
+  </div>
+</div>

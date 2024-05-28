@@ -1,0 +1,106 @@
+/******* intestazione **********/
+
+
+header  {
+    color: aquamarine;
+
+}
+
+img {
+    display: block;
+    margin: auto ;
+    width: 15%;
+    
+}
+
+header p {
+    HEIGHT: 40px;
+    color: cadetblue;
+    text-align: center;
+    align-content: center;
+    border-top: 1px solid rgb(247, 172, 59);
+    background-color: #ffeb3b0f;
+    
+}
+
+/********** centrale******/
+main {
+    align-content: center;
+    text-align: center;
+
+}
+main img {
+    width: 50%;
+    border-radius: 10%;
+}
+
+#diritti{
+    color: gray;
+    font-size: 80%;
+}
+
+section {
+    padding-left: 1%;  
+    text-align: left;
+    border-left: solid; color: rgb(247, 172, 59) ;
+    margin-left: 25%;
+}
+
+section h2 {
+    color: red;
+    margin-bottom: 0%;
+    font-size: 100%;
+    
+}
+
+section p {
+    color: #19b2b7;
+    margin-top: 0%;
+    text-decoration: underline;
+
+}
+main h5 {
+    text-align: left;
+    margin-left: 25%;
+    font-size: 100%;
+    color: black;
+    padding-bottom: 2%; 
+    border-bottom: 0.5px solid #19b2b7; 
+    
+}
+
+div{
+    margin-left: 25%;
+    border-left: 20%;
+    text-align: justify;
+}
+
+.linea-blu {
+    width: 80%;
+}
+
+
+.elemento {
+    margin-top: 2%;
+
+}
+
+div h5 {
+    margin-left: 0%;
+    color: black;
+}
+
+ul{
+    margin-bottom: 5%;
+}
+
+
+ol li { 
+    margin-top: 2%;
+}
+
+/************** footer ************/
+a {
+    color: #19b2b7;
+
+}

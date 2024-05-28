@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica con il Grid System</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .custom-border {
+            border: 1px solid black;
+        }
+
+        /* un po di spazio tra gli esercizi dalla versione tablet in su */
+        @media (min-width: 768px) {
+            .exercise {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Titolo  -->
+        <div class="row">
+            <div class="col text-center">
+                <h1>Pratica con il Grid System</h1>
+            </div>
+        </div>
+
+        <!-- Titoli e contenuto degli esercizi -->
+        <div class="row exercise">
+            <div class="col text-center">
+                <h2>Esercizio 1</h2>
+            </div>
+        </div>
+        <div class="row exercise">
+            <div class="col-md-4 bg-primary text-white p-3 custom-border">
+                <h2 class="text-center">Esercizio 1</h2>
+            </div>
+            <div class="col-md-4 bg-primary text-white p-3 custom-border">
+                <h2 class="text-center">Esercizio 1</h2>
+            </div>
+            <div class="col-md-4 bg-primary text-white p-3 custom-border">
+                <h2 class="text-center">Esercizio 1</h2>
+            </div>
+        </div>
+
+        <div class="row exercise">
+            <div class="col text-center">
+                <h2>Esercizio 2</h2>
+            </div>
+        </div>
+        <div class="row exercise">
+            <div class="col-sm-12 col-md-4 bg-warning text-dark p-3 custom-border">
+                <h2 class="text-center">Esercizio 2</h2>
+            </div>
+            <div class="col-sm-12 col-md-4 bg-warning text-dark p-3 custom-border">
+                <h2 class="text-center">Esercizio 2</h2>
+            </div>
+            <div class="col-sm-12 col-md-4 bg-warning text-dark p-3 custom-border">
+                <h2 class="text-center">Esercizio 2</h2>
+            </div>
+        </div>
+
+        <div class="row exercise">
+            <div class="col text-center">
+                <h2>Esercizio 3</h2>
+            </div>
+        </div>
+
+        <!--  mobile (colonne in linea da subito) -->
+        <div class="row exercise">
+            <div class="col-12 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">Mobile</h2>
+            </div>
+            <div class="col-12 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">Mobile</h2>
+            </div>
+            <div class="col-12 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">Mobile</h2>
+            </div>
+        </div>
+
+        <!-- dimensioni crescenti (sm, md, lg, xl) -->
+        <div class="row exercise">
+            <!-- Bkp SM -->
+            <div class="col-sm-4 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">SM</h2>
+            </div>
+            <div class="col-sm-4 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">SM</h2>
+            </div>
+            <div class="col-sm-4 bg-success text-white p-3 custom-border d-none d-sm-block">
+                <h2 class="text-center">SM puff</h2>
+            </div>
+        </div>
+
+        <div class="row exercise">
+            <!-- Bkp MD -->
+            <div class="col-md-4 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">MD</h2>
+            </div>
+            <div class="col-md-4 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">MD</h2>
+            </div>
+            <div class="col-md-4 bg-success text-white p-3 custom-border d-none d-md-block">
+                <h2 class="text-center">MD puff</h2>
+            </div>
+        </div>
+
+        <div class="row exercise">
+            <!-- Bkp LG -->
+            <div class="col-lg-4 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">LG</h2>
+            </div>
+            <div class="col-lg-4 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">LG</h2>
+            </div>
+            <div class="col-lg-4 bg-success text-white p-3 custom-border d-none d-lg-block">
+                <h2 class="text-center">LG puff</h2>
+            </div>
+        </div>
+
+        <div class="row exercise">
+            <!-- bkp XL -->
+            <div class="col-xl-4 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">XL</h2>
+            </div>
+            <div class="col-xl-4 bg-success text-white p-3 custom-border">
+                <h2 class="text-center">XL</h2>
+            </div>
+            <div class="col-xl-4 bg-success text-white p-3 custom-border d-none d-xl-block">
+                <h2 class="text-center">XL puff</h2>
+            </div>
+        </div>
+
+
+
+        <div class="row exercise">
+            <div class="col text-center">
+                <h2>Esercizio 4</h2>
+            </div>
+        </div>
+        <div class="row exercise">
+            <div class="col-md-2 bg-danger text-white p-3 custom-border">
+                <h2 class="text-center">Esercizio 4</h2>
+            </div>
+            <div class="col-md-8 bg-danger text-white p-3 custom-border">
+                <h2 class="text-center">Esercizio 4</h2>
+            </div>
+            <div class="col-md-2 bg-danger text-white p-3 custom-border">
+                <h2 class="text-center">Esercizio 4</h2>
+            </div>
+        </div>
+
+        <div class="row exercise">
+            <div class="col text-center">
+                <h2>Esercizio 5</h2>
+            </div>
+        </div>
+        <div class="row exercise">
+            <div class="col-md-6 bg-info text-white p-3 custom-border">
+                <h2 class="text-center">Esercizio 5</h2>
+                <div class="row">
+                    <div class="col bg-secondary text-white p-3 custom-border">
+                        <h3>Colonna annidata 1</h3>
+                    </div>
+                    <div class="col bg-secondary text-white p-3 custom-border">
+                        <h3>Colonna annidata 2</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 bg-info text-white p-3 custom-border">
+                <h2 class="text-center">Esercizio 5</h2>
+            </div>
+        </div>
+
+        <div class="row exercise">
+            <div class="col text-center">
+                <h2>Esercizio 6</h2>
+            </div>
+        </div>
+        <div class="row exercise" style="justify-content: space-around;">
+            <div class="col-md-2 bg-dark text-white p-3 custom-border order-md-3">
+                <h2 class="text-center">Esercizio 6</h2>
+            </div>
+            <div class="col-md-2 bg-dark text-white p-3 custom-border">
+                <h2 class="text-center">Esercizio 6</h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

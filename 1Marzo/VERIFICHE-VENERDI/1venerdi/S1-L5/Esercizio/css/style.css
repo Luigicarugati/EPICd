@@ -1,0 +1,182 @@
+
+body {
+    margin: auto;
+
+}
+
+body p {
+    color: #393d41; 
+    font-size: 1.2rem; 
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin-bottom: 0%;
+}
+
+body h1,h2,h3,h4 {
+    color: #25a2c3  ;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.5;
+    
+
+}
+
+
+header {
+     background-color: black;
+     text-align: center;
+     padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+    
+    }
+
+#logo {
+    width: 50%;
+
+    }
+
+    /********** centrale**********/
+
+    .bannerpc {
+        background-image: url('../images/banner.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-bottom: 15%;
+    
+    }
+    
+    .h1azzurro {
+        color: #25a2c3 ;
+        margin-top: auto;
+        padding-top: 10%;
+    }
+
+    .buttonp {
+        width: 120px;
+        height: 50px;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        background-color: #f04c2f;
+        border-radius: 5px;
+        border: none;
+        color: white;
+    }
+
+    article {
+        text-align: center;
+    }
+
+
+    #img1{
+        border-radius: 50%;
+        width: 80%;
+
+    }
+
+    #epicrosso {
+        background-color: #e22d0e;
+        color: white;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        box-sizing: border-box;
+        padding-left: 1%;
+        padding-right: 1%;
+
+    }
+    
+    h2 {
+        padding-top: 10%;
+        padding-bottom: 8%;
+        margin: unset;
+        font-size: xx-large;
+        color: white;
+    }
+
+    #italic {
+        font-style: italic;
+        color: white;
+    }
+
+    #mr {
+        margin-bottom: 1%;
+        color: white;
+        
+    }
+
+    #ce { 
+        margin-top: 0%;
+        font-size: x-small;
+        padding-bottom: 8%;
+        color: white;
+    }
+
+    .uguali1 {
+        border-left:solid #dee1e3 1px;
+        border-bottom: solid #dee1e3 1px;
+        border-right: solid  #dee1e3 1px;
+        margin: 4%;
+        border-radius: 5px;
+
+
+    }
+
+    .uguali1 img {
+        width: 100%;
+    
+    }
+
+    .uguali1 p {
+        margin-bottom: 15%;
+
+    }
+
+    /************footer************/
+    
+
+    footer {
+        background-color: #25a2c3;
+        text-align: center;
+        color: white;
+
+    }
+
+    footer h3 {
+        margin-top: 0%;
+        padding-top: 10%;
+        color: white ;
+        font-size: xx-large;
+        
+    }
+
+    footer ul{
+        list-style: none;
+        padding-left: 0%;
+        color: #c8e7f0;
+    }
+
+    footer a {
+        text-decoration-color: #c8e7f0;
+        color: #c8e7f0;
+    }
+
+    footer hr {
+        width: 40%;
+        padding: 0 5px;
+ 
+    }
+
+    footer p{
+        padding-bottom: 4%;
+        font-size: small;
+         color:  #c8e7f0;
+    }
+
+
+    

@@ -1,0 +1,27 @@
+#card{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(251, 247, 227);
+    overflow: hidden;
+    border-radius: 10%;
+    align-items: center;
+    color: rgb(97, 36, 6);
+    font-size: x-large;
+    justify-content: space-evenly;
+}
+div img{
+    height: 100%;
+    width: 100%;
+}
+.bottoni{
+    border-radius: 50px;
+    font-size: larger;
+    color: rgb(97, 36, 6);
+    background-color: rgb(243, 223, 133);
+    border: none;
+    display: flex;
+    margin-bottom: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+}

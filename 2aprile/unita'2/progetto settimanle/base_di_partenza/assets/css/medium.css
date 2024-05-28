@@ -1,0 +1,461 @@
+/* RULES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: 70%;
+    margin-inline: auto;
+    padding-bottom: 4rem;
+
+}
+
+/* UTILITY */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+header {
+    border-bottom: 1px solid;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #ffc017;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    border-bottom: solid 1px black;
+    transition: background-color 3s ease;
+
+
+}
+
+.logo {
+    height: 50%;
+    padding: 5px;
+    padding-left: 18%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 5rem;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.getstartedbtn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-left: 2rem;
+
+}
+
+.banner-scroll {
+    background-color: white;
+
+}
+
+.banner-scroll .getstartedbtn {
+    background-color: #1a8917;
+    color: white;
+
+}
+
+.banner2 {
+    background-color: #ffc017;
+    display: flex;
+    padding-top: 70px;
+
+
+
+}
+
+.item {
+    flex-grow: 1;
+}
+
+.staycurios {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 124px;
+    padding-bottom: 4rem;
+    width: 100%;
+    padding-left: 6rem
+}
+
+.staycurios h1 {
+    padding-top: 2rem;
+    margin-bottom: 40px;
+    font-size: 60px;
+
+}
+
+.staycurios p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.startreading {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    padding: 11px 45px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,
+p,
+button {
+    margin-left: 10px;
+}
+
+
+
+/* MAIN */
+main {
+    position: relative;
+}
+
+.conttrending {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imgtrend {
+    margin-top: 141%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+h4 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.main h4 i {
+    margin-right: 1rem;
+}
+
+#rotondo {
+    border-radius: 60%
+}
+
+.section-card-container {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    width: 30%;
+}
+
+.section-card-container p {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.114);
+}
+
+.section-card-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-container {
+
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 25%;
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.section-body-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.h5-card-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.h5-card-img h5 {
+    font-size: 0.8rem;
+}
+
+.section-body-card-container h3 {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: arial;
+}
+
+.section-body-card-container p {
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 400;
+}
+
+.star1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#lgrey {
+    border-bottom: 1px solid;
+    border-color: #cfcece;
+}
+
+/* FOOTER */
+article {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.flex {
+    display: flex;
+    padding-top: 3rem;
+    padding-inline: 2rem;
+}
+
+.margin {
+    margin-top: 5rem;
+}
+
+article h4 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.article-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.img-container-article {
+    width: 12rem;
+    height: 9rem;
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.img-container-article img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.article-card-container h3 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    FONT-FAMILY: ARIAL;
+}
+
+.article-card-container p:first-of-type {
+    color: rgb(115, 112, 112);
+    margin-top: 0.4rem;
+}
+
+.article-card-container p:last-of-type {
+    color: rgb(115, 112, 112);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    width: 150%;
+}
+
+.article-card-container span {
+
+    border-radius: 50px;
+    padding-block: 0.4rem;
+    padding-inline: 0.6rem;
+}
+
+.category {
+
+    background-color: rgba(233, 231, 231, 0.673);
+}
+
+.star {
+
+    background-color: none;
+    padding-block: 0.4rem;
+}
+
+#bookmark1 {
+
+    padding-left: 28%;
+}
+
+#bookmark2 {
+
+    padding-left: 28%;
+}
+
+#bookmark3 {
+
+    padding-left: 14%;
+}
+
+#bookmark4 {
+
+    padding-left: 28%;
+}
+
+
+#bookmark5 {
+    padding-left: 35%;
+}
+
+#bookmark6 {
+    padding-left: 27%;
+}
+
+#bookmark7 {
+    padding-left: 17%;
+}
+
+.sticky-section {
+    padding-inline: 1rem;
+    width: 40%;
+}
+
+aside {
+    position: sticky;
+    top: 100px;
+    z-index: 4;
+    padding-inline: 0rem;
+}
+
+aside h2 {
+    margin-top: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.aside-btn {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+.aside-btn button {
+    border: solid 1px #cfcece;
+    background-color: white;
+    color: rgb(133, 133, 133);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.topic {
+    text-align: left;
+    padding-top: 3rem;
+}
+
+.topic p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #1a8917;
+    cursor: pointer;
+}
+
+.topic p:hover {
+    text-decoration: underline;
+
+}
+
+.line {
+    height: 1px;
+    background-color: #cfcece;
+    margin-block: 1.5rem;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 45px;
+    row-gap: 10px;
+    list-style-type: none;
+}
+
+footer ul li {
+    cursor: pointer;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    opacity: 0.6;
+}

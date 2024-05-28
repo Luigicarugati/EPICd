@@ -1,0 +1,56 @@
+[
+  {
+      "brand": "Fiat",
+      "brandLogo": "https://www.salvatorepumo.it/wp-content/uploads/2022/08/logo-fiat-1972.jpg",
+      "model": "500L",
+      "modelImage": "https://images.ctfassets.net/uaddx06iwzdz/7wS2Bno4suJoxjJXwSjUkd/f144161393e08fccbe811bb9ae736afb/fiat-500l-front.jpeg",
+      "year": 2015,
+      "price": 7500,
+      "available": false
+  },
+  {
+      "brand": "Fiat",
+      "brandLogo": "https://www.salvatorepumo.it/wp-content/uploads/2022/08/logo-fiat-1972.jpg",
+      "model": "500 Abarth",
+      "modelImage": "https://www.autoscout24.it/cms-content-assets/4sbvd0wXw7X8nawHWYTFwV-6b2d7ef21862e9da173c25a5939b43a4-Fiat-500_Abarth-2012-1600-20-1100-1100.jpg",
+      "year": 2010,
+      "price": 3500,
+      "available": true
+  },
+  {
+      "brand": "Ford",
+      "brandLogo": "https://previews.123rf.com/images/maimento/maimento1306/maimento130600098/20527047-ford-logo-marca-di-auto-americane.jpg",
+      "model": "Taurus",
+      "modelImage": "https://www.autoscout24.it/cms-content-assets/y6qAlpEqI7OVI6WkbFMZq-d21f45bc6a1f739a97443ee660f68446-ford-taurus-front-1100.jpeg",
+      "year": 2009,
+      "price": 5200,
+      "available": false
+  },
+  {
+      "brand": "Ford",
+      "brandLogo": "https://previews.123rf.com/images/maimento/maimento1306/maimento130600098/20527047-ford-logo-marca-di-auto-americane.jpg",
+      "model": "Focus",
+      "modelImage": "https://www.autoscout24.it/cms-content-assets/162R5nC59akk9Pv9knn5wU-3be7affe23573534e59232eb937743c5-ford-focus-back-1100.jpg",
+      "year": 2014,
+      "price": 9700,
+      "available": true
+  },
+  {
+      "brand": "Audi",
+      "brandLogo": "https://netrinoimages.s3.eu-west-2.amazonaws.com/2012/12/10/140892/63411/audi_logo_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_613950_o.jpg",
+      "model": "A3",
+      "modelImage": "https://www.autoscout24.it/cms-content-assets/554kXM0N25Xg07rRo30Jzr-a45f500220531ead236ad594e7386dd5-Audi-A3-Limousine-Hero-1100-1100.jpg",
+      "year": 2012,
+      "price": 4300,
+      "available": true
+  },
+  {
+      "brand": "Audi",
+      "brandLogo": "https://netrinoimages.s3.eu-west-2.amazonaws.com/2012/12/10/140892/63411/audi_logo_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_613950_o.jpg",
+      "model": "Q7",
+      "modelImage": "https://www.autoscout24.it/cms-content-assets/78BCCpJMgO2gwizBQJlL1x-8bdb92cd6c6fae038571c7c31700af15-audi-q7-facelift-2024-front-1100.jpg",
+      "year": 2020,
+      "price": 41700,
+      "available": false
+  }
+]

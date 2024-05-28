@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  h1{
+    color: orange;
+  }
+  .container {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .celleNumeri {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid white;
+    font-size: 16px;
+    display: inline-block;
+    color: white;
+  }
+  
+  .usciti {
+    background-color: orange;
+  }
+  
+  .scheda{
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .scheda td {
+    border: 1px solid white;
+    padding: 8px;
+  }
+

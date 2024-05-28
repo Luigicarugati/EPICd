@@ -1,0 +1,147 @@
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;    
+    background-color: rgb(232, 236, 238); 
+}
+
+header{
+    background-color: rgb(34, 47, 63);
+}
+
+#logo{
+    width: 8%;
+    padding-top: 0.5%;
+    padding-left: 2.2%;
+}
+
+.bba{
+    background-color: rgb(54, 71, 89);
+    font-size: smaller;
+    padding: 0.6%;
+}
+
+ul {
+    margin: 0;
+    padding-left: 2%;
+
+.d{
+    display: inline;
+    padding-right: 1.5%;
+}
+}
+.ba{
+    background-color: rgb(54, 71, 88);
+    text-decoration: none;
+    color: white;
+    border: 0;
+    display: inline;
+}
+
+#bgaranc{
+    background-color: rgb(245, 102, 0);
+    color: white;
+    text-align: center;
+    font-size: x-small;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#bgverde{
+    background-image: url(./assets/images/bg-image.png);
+    background-position: top;
+    background-repeat: repeat;
+    background-size: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    color: white;
+    padding-bottom:2% ;
+    
+
+}
+h2{
+    margin-top: 1.5%;
+}
+#hg {
+        padding-top: 5%;
+        margin-bottom: 0;
+        margin-top: 1.5%;
+    
+}
+
+#be {
+    font-size: smaller;
+    margin: 0;
+    padding-top: 1.5%;
+}
+#cont{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.strim{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: white;
+    max-height: fit-content;
+    padding-bottom: 10px ;
+    
+}
+.spot{
+    display: inline;
+    
+    padding-left: 2%;
+    padding-top: 2%;
+    
+    
+}
+.spot img{
+    border-radius: 18%;
+    width: 22.5%;
+    height: 360px;
+}
+
+.lk{
+    padding-left: 2%;
+    color: black;
+    display: inline;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.shn{
+    background-color: white;
+    display: inline;
+    color: rgb(43, 157, 179);
+    padding-left: 2%;
+    font-size: smaller;
+}
+.strll{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2.5%;
+    text-align: center;
+
+}
+.st{
+    width: 100%;
+
+}
+.grr{
+    background-color: rgb(232, 236, 238); 
+    display: inline;
+    color: rgb(43, 157, 179);
+    padding-left: 2%;
+    font-size: smaller;
+
+}
+footer{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(34, 47, 63)
+}
+#logoff{
+    height: 42px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}

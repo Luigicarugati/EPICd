@@ -1,0 +1,190 @@
+@charset "UTF-8";
+.horizontal-carousel {
+  position: relative;
+}
+.horizontal-carousel img {
+  display: inline-block;
+  width: 200px;
+  margin-right: 10px; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+#prevBtn {
+  left: 0;
+}
+
+#nextBtn {
+  right: 0;
+}
+
+.w-10 {
+  width: 7rem;
+}
+
+.w-10 {
+  width: 10rem;
+}
+@media screen and (max-width: 998px) {
+  .w-10 {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 998px) {
+  .division {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 998px) {
+  .division2 {
+    width: 75%;
+  }
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.img-hover img {
+  cursor: pointer;
+}
+.img-hover img:hover {
+  scale: 1.2;
+  transition: 0.3s;
+  box-shadow: 1px 1px 15px 5px black;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.position {
+  bottom: 10px;
+  left: 10px;
+}
+
+.position-relative img {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-grey-btn {
+  background-color: #333333;
+}
+.bg-grey-btn:visited, .bg-grey-btn:hover, .bg-grey-btn:active {
+  background-color: #333333;
+}
+
+@media screen and (max-width: 998px) {
+  .w-60 {
+    width: 12rem;
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .img-cont-avatar-profile {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin-inline: auto;
+    margin-bottom: 3rem;
+  }
+}
+
+/* Personalizzo il label e quindi il contenitore dell'input */
+.checkbox-wrapper {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Nascondo il checkbox di base del browser */
+.checkbox-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* creo il mio checkbox */
+.checkbox-wrapper .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #333333;
+  border: 1px solid transparent;
+}
+
+/* Creo la spunta all'interno dell'input (inizialmente nascosta) */
+.checkbox-wrapper .checkmark::after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 2px;
+  width: 5px;
+  height: 15px;
+  border: solid #b7b6b6;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+
+/* Quando vado sopra con il mouse (opzionale) */
+.checkbox-wrapper:hover input ~ .checkmark {
+  background-color: #cccccc;
+}
+
+/* Quando l'input è selezionato, coloro il bordo dell'input */
+.checkbox-wrapper input:checked ~ .checkmark {
+  border-color: #676464;
+}
+
+/* Quando l'input è selezionato mostro la spunta */
+.checkbox-wrapper input:checked ~ .checkmark::after {
+  display: block;
+}
+
+.btn-profile button:hover {
+  background-color: #f3f3f3;
+  color: #333333;
+}
+
+.w-30 {
+  width: 100%;
+  text-align: center;
+}
+@media screen and (min-width: 998px) {
+  .w-30 {
+    width: 29%;
+  }
+}
+
+.w-61 {
+  width: 100%;
+}
+@media screen and (min-width: 998px) {
+  .w-61 {
+    width: 70%;
+  }
+}
+
+.bg-grey-account-page {
+  background-color: #f3f3f3;
+}/*# sourceMappingURL=style.css.map */
