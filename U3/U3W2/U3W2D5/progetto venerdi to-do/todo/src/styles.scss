@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(110deg, #00FF00 0%, #FF00FF 25%, #FFFF00 75%, #00FFFF 100%);
+
+
+}
+
+
+
+
+.notCompleted {
+  background-color:rgb(177, 17, 17) ;
+}
+
+.notCompleted:hover {
+  background-color: rgb(252, 166, 6) ;
+}
+
+.completed:hover {
+  background-color: rgb(7, 253, 60);
+}
+
+.completed {
+  background-color: rgb(34, 185, 236);
+}
+
