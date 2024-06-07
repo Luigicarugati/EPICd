@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "email": "mario@email.com",
+      "password": "$2a$10$1plwpsx4gRzvXlI4d/ae/.3q9lpB0yZUg/9j3d1vMSy08k6q3lT7K",
+      "nome": "Mario Rossi",
+      "id": 1
+    },
+    {
+      "email": "giulia@email.com",
+      "password": "$2a$10$JnF8.uX2SnF4/zjFA4ZMUOMDth5IyXzLe9i6sX.c.XL.lfug0iJn2",
+      "nome": "Giulia Verdi",
+      "id": 2
+    },
+    {
+      "email": "luca@email.com",
+      "password": "$2a$10$U9.birAOfx2OH/A7MTl/KuLMMKkZUnXVSDnvgeaG.yUv3t6XcfFkG",
+      "nome": "Luca Bianchi",
+      "id": 3
+    }
+  ],
+  "film-popular": [
+    {
+      "title": "The Great Escape",
+      "description": "A gripping World War II adventure film about a group of Allied prisoners attempting to escape from a German POW camp.",
+      "cover": "https://www.example.com/great_escape.jpg",
+      "available": true,
+      "id": 1
+    },
+    {
+      "title": "Inception",
+      "description": "A mind-bending science fiction film about stealing secrets from deep within the subconscious during the dream state.",
+      "cover": "https://www.example.com/inception.jpg",
+      "available": false,
+      "id": 2
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "description": "A powerful drama about hope and friendship in the confines of a prison.",
+      "cover": "https://www.example.com/shawshank_redemption.jpg",
+      "available": true,
+      "id": 3
+    },
+    {
+      "title": "Pulp Fiction",
+      "description": "A nonlinear crime film that weaves together multiple storylines in the seedy underbelly of Los Angeles.",
+      "cover": "https://www.example.com/pulp_fiction.jpg",
+      "available": false,
+      "id": 4
+    },
+    {
+      "title": "The Godfather",
+      "description": "A classic Mafia film chronicling the rise of the Corleone crime family.",
+      "cover": "https://www.example.com/godfather.jpg",
+      "available": true,
+      "id": 5
+    }
+  ],
+  "favorites": [
+    {
+      "userId": 1,
+      "movie": {
+        "title": "Inception",
+        "description": "A mind-bending science fiction film about stealing secrets from deep within the subconscious during the dream state.",
+        "cover": "https://www.example.com/inception.jpg",
+        "available": false,
+        "id": 2
+      },
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "movie": {
+        "title": "The Shawshank Redemption",
+        "description": "A powerful drama about hope and friendship in the confines of a prison.",
+        "cover": "https://www.example.com/shawshank_redemption.jpg",
+        "available": true,
+        "id": 3
+      },
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "movie": {
+        "title": "The Godfather",
+        "description": "A classic Mafia film chronicling the rise of the Corleone crime family.",
+        "cover": "https://www.example.com/godfather.jpg",
+        "available": true,
+        "id": 5
+      },
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "movie": {
+        "title": "Pulp Fiction",
+        "description": "A nonlinear crime film that weaves together multiple storylines in the seedy underbelly of Los Angeles.",
+        "cover": "https://www.example.com/pulp_fiction.jpg",
+        "available": false,
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "title": "The Great Escape",
+        "description": "A gripping World War II adventure film about a group of Allied prisoners attempting to escape from a German POW camp.",
+        "cover": "https://www.example.com/great_escape.jpg",
+        "available": true,
+        "id": 1
+      },
+      "id": 5
+    }
+  ]
+}
