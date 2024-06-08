@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Movies</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4" *ngFor="let movie of movies">
+          <div class="card">
+            <img [src]="movie.posterUrl" class="card-img-top" alt="{{ movie.title }}">
+            <div class="card-body">
+              <h5 class="card-title">{{ movie.title }}</h5>
+              <p class="card-text">{{ movie.description }}</p>
+              <button class="btn btn-primary" (click)="addToFavorites(movie)">Add to Favorites</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

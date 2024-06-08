@@ -1,0 +1,12 @@
+
+{
+  "movies": [
+    { "id": 1, "title": "The Shawshank Redemption", "director": "Frank Darabont" },
+    { "id": 2, "title": "The Godfather", "director": "Francis Ford Coppola" },
+    { "id": 3, "title": "The Dark Knight", "director": "Christopher Nolan" }
+  ],
+  "users": [
+    { "id": 1, "username": "user1", "password": "password1", "email": "user1@mail.com"},
+    { "id": 2, "username": "user2", "password": "password2", "email": "user2@mail.com" }
+  ]
+}
